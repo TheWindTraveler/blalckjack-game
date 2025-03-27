@@ -1,3 +1,5 @@
 body{
-    background-color: red;
+     background: url(./assets/images/table.png);
+     background-repeat: no-repeat;
+     background-size: cover;
 }
