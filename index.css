@@ -1,6 +1,47 @@
+/* Variables */
+:root{
+    --primary-color: #DAA520;
+    --general-color: white;
+    --button-text-color: #017237;
+}
+
+/* Body */
 body{
      background: url(./assets/images/table.png);
+     color: var(--general-color);
      background-repeat: no-repeat;
      background-size: cover;
      text-align: center;
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+p{
+    font-size: 25px;
+}
+
+/* Overall container */
+.container{
+    margin-top: 70px;
+}
+
+/* Button */
+.btn{
+    padding: 15px;
+    width: 15%;
+    margin: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Button hover */
+.btn:hover{
+    background-color: var(--general-color);
 }
