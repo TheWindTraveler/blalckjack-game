@@ -4,5 +4,5 @@ function startGame(){
     isAlive = true;
     card = [firstCard, secondCard];
     sum = firstCard + secondCard;
-    randerGame();
+    renderGame();
 }
